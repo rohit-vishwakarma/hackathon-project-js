@@ -22,11 +22,11 @@ async function run(){
     await tab.click("tp-yt-paper-button[class='style-scope ytd-button-renderer style-suggestive size-default']");
 //typing the email and clicking to the next button
     await tab.waitForSelector("input[type='email']", {visible: true});
-    await tab.type("input[type='email']", "tempmail5620@gmail.com");
+    await tab.type("input[type='email']", "googletempemail@gmail.com");
     await tab.click("div[class='VfPpkd-RLmnJb']");
 //typing the password and cicking to the next button
     await tab.waitForSelector("input[type='password']", {visible: true});
-    await tab.type("input[type='password']", "1234@Random");
+    await tab.type("input[type='password']", "1234@Randompassword");
     await tab.click("div[class='VfPpkd-RLmnJb']");
 
 // waiting and typing in the search bar
